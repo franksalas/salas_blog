@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sal.as</title>
+    <link>/</link>
+    <description>Recent content on sal.as</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Copyright notice</copyright>
+    <lastBuildDate>Fri, 01 Sep 2017 03:21:48 -0500</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test</title>
+      <link>/posts/test/</link>
+      <pubDate>Fri, 01 Sep 2017 03:21:48 -0500</pubDate>
+      
+      <guid>/posts/test/</guid>
+      <description>This is a paragram lorenVelit occaecat aliqua ex dolore esse eu velit reprehenderit commodo. Excepteur proident mollit ullamco ullamco sunt sit qui aute magna do occaecat labore. Do sint deserunt cupidatat nisi consectetur ut qui nostrud eiusmod sint commodo aliquip. Aliquip qui enim proident ipsum dolore reprehenderit officia. Proident aliqua nostrud incididunt ea ex ut labore et.
+this is a sub paragraph lorenVelit occaecat aliqua ex dolore esse eu velit reprehenderit commodo.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>/posts/my-first-post/</link>
+      <pubDate>Fri, 01 Sep 2017 02:21:14 -0500</pubDate>
+      
+      <guid>/posts/my-first-post/</guid>
+      <description> Intro print(&amp;quot;hello&amp;quot;)  </description>
+    </item>
+    
+  </channel>
+</rss>

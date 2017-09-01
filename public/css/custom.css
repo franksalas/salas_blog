@@ -1,0 +1,9 @@
+pre {
+    display: block;
+    padding: 12px;
+    border-radius: 3px;
+    background-color: #DBD9D9;
+    font-size: 1.8rem;
+    word-wrap: break-word;
+    overflow: auto;
+}
