@@ -1,6 +1,6 @@
 ---
 title: python test
-date: 2017-9-1
+date: 2002-09-01
 draft: True
 ---
 
@@ -36,6 +36,18 @@ A tip disclaimer
 {{% notice warning %}}
 An warning disclaimer
 {{% /notice %}}
+
+
+## mermaid
+
+{{<mermaid align="left">}}
+graph LR;
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+{{< /mermaid >}}
+
 
 
 [img1]: /img/python-test/image1.jpg
