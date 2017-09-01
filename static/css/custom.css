@@ -68,7 +68,7 @@ div.notices.tip p:first-child:after {
     content: 'Tip';
 }
 
-/* code */
+/* code
 code, kbd, pre, samp {
     font-family: "Consolas", menlo, monospace;
     font-size: 92%;
@@ -88,4 +88,4 @@ code + .copy-to-clipboard {
     vertical-align: middle;
     height: 21px;
     top: 0;
-}
+} */

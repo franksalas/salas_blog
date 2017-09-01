@@ -42,8 +42,10 @@ def make_entry(title):
     # today.year, today.month, today.day, slug)
     t = TEMPLATE.strip().format(title=title,
                                 year=today.year,
-                                month=today.month,
-                                day=today.day,
+                                #month=today.month,
+                                month = '{:02d}'.format(today.month),
+                                day = '{:02d}'.format(today.day),
+                                #day=today.day,
                                 hour=today.hour,
                                 minute=today.minute,
                                 slug=slug)
