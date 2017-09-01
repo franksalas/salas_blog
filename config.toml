@@ -39,7 +39,7 @@ pygmentsUseClasses = false
   avatar = "https://avatars1.githubusercontent.com/u/7411038?v=4&u=e22f5ebf6ee8baea460c6c7b8d2e8e6cb368ea01&s=400"
   bio = "Learning  as I go."
   # Short subtitle/tagline. This is displayed in the header.
-  subtitle = "Short subtitle"
+  #subtitle = "Short subtitle"
   # Logo image. This is displayed ogp image.
   #logo = "/path/to/logo"
 
