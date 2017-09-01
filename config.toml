@@ -1,0 +1,50 @@
+baseurl = ""
+languageCode = "en-us"
+Title = "sal.as"
+# Copyright notice. This is displayer in the footer.
+copyright = "&copy; Copyright notice"
+theme = "hugo_theme_pickles"
+# enables syntax guessing for code fences without specified language
+pygmentsCodeFencesGuessSyntax = true
+pygmentscodefences = "true"
+# color-codes for highlighting derived from this style
+pygmentsStyle =  "default"
+# true: use pygments-css or false: color-codes directly
+pygmentsUseClasses = false
+
+[params]
+  # Social accounts. Link to these accounts are displayed in the header and
+  # footer
+  twitter = "franksalas"
+  #facebook = "Your Facebook username"
+  #instagram = "Your Instagram username"
+  #googleplus = "Your Google+ user id"
+  github = "franksalas"
+  #npm = "Your npm username"
+  #codepen = "Your CodePen username"
+  #dribbble = "Your Dribbble username"
+  #fivehundredpx = "Your 500px username" # 500px
+  #flickr = "Your Flickr username"
+  #pinterest = "Your Pinterest username"
+  #tumblr = "Your Tumblr username"
+  #vimeo = "Your Vimeo username"
+  #youtube = "Your YouTube username"
+  #linkedin = "Your LinkedIn username"
+  # Disqus shortname
+  disqus = ""
+  # Google Analytics API key.
+  ga_api_key = "Your Google Analytics tracking id"
+  author = "Francisco Salas"
+  #authorwebsite = "about"
+  avatar = "https://avatars1.githubusercontent.com/u/7411038?v=4&u=e22f5ebf6ee8baea460c6c7b8d2e8e6cb368ea01&s=400"
+  bio = "Learning  as I go."
+  # Short subtitle/tagline. This is displayed in the header.
+  subtitle = "Short subtitle"
+  # Logo image. This is displayed ogp image.
+  #logo = "/path/to/logo"
+
+[blackfriday]
+  angledQuotes = true
+  fractions = false
+  plainIDAnchors = true
+  extensions = ["hardLineBreak"]
