@@ -33,7 +33,7 @@ pygmentsUseClasses = false
   # Disqus shortname
   disqus = ""
   # Google Analytics API key.
-  ga_api_key = "Your Google Analytics tracking id"
+  ga_api_key = "UA-105781975-1"
   author = "Francisco Salas"
   #authorwebsite = "about"
   avatar = "https://avatars1.githubusercontent.com/u/7411038?v=4&u=e22f5ebf6ee8baea460c6c7b8d2e8e6cb368ea01&s=400"
