@@ -10,10 +10,6 @@
   
 
   
-  <meta name="description" content="Short subtitle">
-  <meta property="og:description" content="Short subtitle">
-  <meta name="twitter:description" content="Short subtitle">
-  
 
   <meta name="author" content="Francisco Salas"/>
   <meta property="og:site_name" content="sal.as" />
@@ -37,8 +33,16 @@
   
   <script type="text/javascript" src="/js/bundle.js"></script>
   
-<link rel="stylesheet" href="/css/mathjax-style.css"/>
-<link rel="stylesheet" href="/css/custom.css"/>
+
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/agate.min.css">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/custom.css" />
+<link rel="stylesheet" href="/css/font-awesome.min.css" />
+<link rel="stylesheet" href="/mermaid/mermaid.css"/>
+<script type="text/javascript" src="/mermaid/mermaid.js"></script>
 </head>
 
 <body>
@@ -48,52 +52,8 @@
     <h1 class="c-title title"><a href="/" class="title__link">sal.as</a></h1>
     
     
-    <p class="subtitle">
-      Short subtitle
-    </p>
-    
   </header>
   <main class="l-main">
-
-
-
-<article class="c-article p-list-article">
-  <header>
-    <h2 class="c-title c-article__title"><a href="/posts/test/">Test</a></h2>
-    <p class="c-article__meta">
-      Posted on
-      <time datetime="2017-09-01T03:21:48-05:00">
-        Sep 1, 2017
-      </time>
-    </p>
-  </header>
-  <div class="c-article__summary">
-    This is a paragram lorenVelit occaecat aliqua ex dolore esse eu velit reprehenderit commodo. Excepteur proident mollit ullamco ullamco sunt sit qui aute magna do occaecat labore. Do sint deserunt cupidatat nisi consectetur ut qui nostrud eiusmod sint commodo aliquip. Aliquip qui enim proident ipsum dolore reprehenderit officia. Proident aliqua nostrud incididunt ea ex ut labore et.
-this is a sub paragraph lorenVelit occaecat aliqua ex dolore esse eu velit reprehenderit commodo.
-  </div>
-  
-  <a href="/posts/test/" class="c-article__btn p-list-article__btn">Read more</a></li>
-  
-</article>
-
-
-
-
-<article class="c-article p-list-article">
-  <header>
-    <h2 class="c-title c-article__title"><a href="/posts/my-first-post/">My First Post</a></h2>
-    <p class="c-article__meta">
-      Posted on
-      <time datetime="2017-09-01T02:21:14-05:00">
-        Sep 1, 2017
-      </time>
-    </p>
-  </header>
-  <div class="c-article__summary">
-     Intro print(&quot;hello&quot;)  
-  </div>
-  
-</article>
 
 
 <nav class="c-pagination p-pagination">
@@ -105,7 +65,7 @@ this is a sub paragraph lorenVelit occaecat aliqua ex dolore esse eu velit repre
       
     </div>
   </div>
-  <span class="c-pagination__count p-pagination__count">Page 1 of 1</span>
+  <span class="c-pagination__count p-pagination__count">Page 1 of 0</span>
 </nav>
 
 
@@ -131,7 +91,6 @@ this is a sub paragraph lorenVelit occaecat aliqua ex dolore esse eu velit repre
 
   </main>
   
-
   <footer class="l-footer">
     
 <ul class="c-links">
@@ -180,7 +139,7 @@ this is a sub paragraph lorenVelit occaecat aliqua ex dolore esse eu velit repre
       
 
       &nbsp;&bull;&nbsp;
-      2017
+      0001
 
       
         &nbsp;&bull;&nbsp;
@@ -195,10 +154,22 @@ this is a sub paragraph lorenVelit occaecat aliqua ex dolore esse eu velit repre
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'Your Google Analytics tracking id', 'auto');
+    ga('create', 'UA-105781975-1', 'auto');
     ga('send', 'pageview');
   </script>
-  <script type="text/javascript" async
+  
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script src="/js/jquery-2.x.min.js"></script>
+<script src="/js/clipboard.min.js"></script>
+
+
+
+<script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   MathJax.Hub.Config({
   tex2jax: {
@@ -220,13 +191,32 @@ this is a sub paragraph lorenVelit occaecat aliqua ex dolore esse eu velit repre
         all[i].SourceElement().parentNode.className += ' has-jax';
     }
   });
-
   MathJax.Hub.Config({
   
   TeX: { equationNumbers: { autoNumber: "AMS" } }
   });
 </script>
 
+
+
+
+<script type="text/javascript" src="//cdn.bootcss.com/viz.js/1.3.0/viz.js"> </script>
+<script type="text/javascript">
+(function(){
+    var vizPrefix = "language-viz-";
+    Array.prototype.forEach.call(document.querySelectorAll("[class^=" + vizPrefix + "]"), function(x){
+        var engine;
+        x.getAttribute("class").split(" ").forEach(function(cls){
+            if (cls.startsWith(vizPrefix)) {
+                engine = cls.substr(vizPrefix.length);
+            }
+        });
+        var image = new DOMParser().parseFromString(Viz(x.innerText, {format:"svg", engine:engine}), "image/svg+xml");
+        x.parentNode.insertBefore(image.documentElement, x);
+        x.style.display = 'none'
+    });
+})();
+</script>
 </body>
 </html>
 

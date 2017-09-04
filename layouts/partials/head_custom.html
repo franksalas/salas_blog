@@ -2,8 +2,13 @@
 If you want to include any custom html just before </head>, put it in /layouts/head_custom.html
 Do not put anything in this file - it's only here so that hugo won't throw an error if /layouts/head_custom.html doesn't exist.
 -->
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/mathjax-style.css"/>
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css"/>
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome-regular.css"/>
+
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/agate.min.css">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}mermaid/mermaid.css"/>
 <script type="text/javascript" src="{{ .Site.BaseURL }}mermaid/mermaid.js"></script>

@@ -7,7 +7,7 @@ draft: True
 # Math latext
 
 ## Greek letters
-```latex
+```markdown
 \alpha, \Alpha, \beta, \Beta, \gamma, \Gamma, \pi, \Pi, \phi, \varphi, \mu, \Phi
 ```
 

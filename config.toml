@@ -4,13 +4,7 @@ Title = "sal.as"
 # Copyright notice. This is displayer in the footer.
 copyright = "&copy; Copyright notice"
 theme = "hugo_theme_pickles"
-# enables syntax guessing for code fences without specified language
-pygmentsCodeFencesGuessSyntax = true
-pygmentscodefences = "true"
-# color-codes for highlighting derived from this style
-pygmentsStyle =  "default"
-# true: use pygments-css or false: color-codes directly
-pygmentsUseClasses = false
+
 
 [params]
   # Social accounts. Link to these accounts are displayed in the header and
