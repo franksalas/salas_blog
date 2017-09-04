@@ -1,4 +1,11 @@
 
+/*footer tags*/
+
+#all-tags li {
+    display: inline;
+}
+
+
 /* code block display */
 
 /*title of page*/
@@ -13,10 +20,12 @@ Onli works inside posts or "js-article"*/
  line-height: 27px;
  }
 
+/*fixes graphviz and code blocks clear background*/
 pre {
     background-color: transparent;
 }
 
+/*for mathjax*/
 code.has-jax {
     font: inherit;
     font-size: 100%;

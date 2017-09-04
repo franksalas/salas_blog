@@ -15,9 +15,10 @@ today = datetime.today()
 
 TEMPLATE = """
 ---
-title: {title}
+title: "{title}"
 date: {year}-{month}-{day}
-draft: True
+tags : [ ]
+draft: true
 ---
 
 
@@ -40,7 +41,7 @@ def make_entry(title):
     f_create = "content/posts/{}.md".format(slug)
     # directory = "content/images/{}-{:0>2}-{:0>2}-{}".format(
     # today.year, today.month, today.day, slug)
-    t = TEMPLATE.strip().format(title=title,
+    t = TEMPLATE.strip().format(title=title.title(),
                                 year=today.year,
                                 #month=today.month,
                                 month = '{:02d}'.format(today.month),
