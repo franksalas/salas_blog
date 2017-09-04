@@ -17,15 +17,11 @@ theme = "hugo_theme_pickles"
   #npm = "Your npm username"
   #codepen = "Your CodePen username"
   #dribbble = "Your Dribbble username"
-  #fivehundredpx = "Your 500px username" # 500px
-  #flickr = "Your Flickr username"
-  #pinterest = "Your Pinterest username"
-  #tumblr = "Your Tumblr username"
   #vimeo = "Your Vimeo username"
   #youtube = "Your YouTube username"
-  #linkedin = "Your LinkedIn username"
+  linkedin = "Your LinkedIn username"
   # Disqus shortname
-  disqus = ""
+  #disqus = ""
   # Google Analytics API key.
   ga_api_key = "UA-105781975-1"
   author = "Francisco Salas"

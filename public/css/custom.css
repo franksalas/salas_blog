@@ -1,5 +1,11 @@
 
 /* code block display */
+
+/*title of page*/
+.title {
+    font-size: 9.0rem;
+}
+
 pre {
     background-color: transparent;
 }

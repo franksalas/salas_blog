@@ -1,5 +1,18 @@
 
 /* code block display */
+
+/*title of page*/
+.title {
+    font-size: 9.0rem;
+}
+
+/*content font recomendation,
+Onli works inside posts or "js-article"*/
+#js-article p {
+ font-size: 18px; 
+ line-height: 27px;
+ }
+
 pre {
     background-color: transparent;
 }
