@@ -32,9 +32,12 @@ theme = "hugo_theme_pickles"
   #subtitle = "Short subtitle"
   # Logo image. This is displayed ogp image.
   #logo = "/path/to/logo"
+  googleMapsAPIKey = ""
+
 
 [blackfriday]
   angledQuotes = true
   fractions = false
   plainIDAnchors = true
+  hrefTargetBlank = true
   extensions = ["hardLineBreak"]

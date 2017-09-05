@@ -1,4 +1,11 @@
 
+/*footer tags*/
+
+#all-tags li {
+    display: inline;
+}
+
+
 /* code block display */
 
 /*title of page*/
@@ -13,10 +20,12 @@ Onli works inside posts or "js-article"*/
  line-height: 27px;
  }
 
+/*fixes graphviz and code blocks clear background*/
 pre {
     background-color: transparent;
 }
 
+/*for mathjax*/
 code.has-jax {
     font: inherit;
     font-size: 100%;
@@ -46,11 +55,9 @@ div.notices p:first-child:before {
     position: absolute;
     top: 2px;
     color: #fff;
-    /* font-family: FontAwesome; */
     font-family: 'Font Awesome 5 Regular';
-    content: '';
-    
-    left: 3px;
+    content: '\f054';
+    left: 7px;
 }
 div.notices p:first-child:after {
     position: absolute;

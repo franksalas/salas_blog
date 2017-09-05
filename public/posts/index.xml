@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright notice</copyright>
-    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Anaconda Enviromenton C9.Io</title>
+      <link>/posts/anaconda-enviromenton-c9.io/</link>
+      <pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/anaconda-enviromenton-c9.io/</guid>
+      <description>Cloud9 or c9.io is an online integraded development enviroment or as we like to call it an IDE. It provides developers an enviroment on the clould that allows anyone to get started with coding imediately and collaborate with others.
+And now that Amazon bougt Cloud 9 its</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>/posts/test/</link>
+      <pubDate>Mon, 24 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/posts/test/</guid>
+      <description> In the morning Getting up  Turn off alarm
+ Get out of bed
+  Breakfast  Eat eggs
+ Drink coffee
+  In the evening Dinner  Eat spaghetti
+ Drink wine
+  Going to sleep  Get in bed
+ Count sheep
+  </description>
+    </item>
     
     <item>
       <title>Sup Globe</title>

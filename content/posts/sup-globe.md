@@ -1,6 +1,7 @@
 ---
 title: Sup Globe
 date: 2016-01-01
+menu: "main"
 draft: false
 ---
 
