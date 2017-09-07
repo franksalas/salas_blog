@@ -2,7 +2,7 @@
 title: "Anaconda Enviroment On Cloud9"
 date: 2017-09-05
 tags : ["python", "anaconda","c9" ]
-draft: false
+draft: true
 ---
 
 {{% notice note   %}}
