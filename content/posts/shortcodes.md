@@ -29,16 +29,6 @@ draft: true
 </section>
 {{< /highlight >}}
 
-## instagram
-
-
-{{< instagram BWNjjyYFxVx >}}
-## ref and relref
-
-[Neat]({{< ref "posts/font-awesome.md" >}})
-[Who]({{< relref "about.md#who" >}})
-
-
 
 ## tweet
 

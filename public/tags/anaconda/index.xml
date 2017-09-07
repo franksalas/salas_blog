@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anaconda on sal.as</title>
+    <link>/tags/anaconda/</link>
+    <description>Recent content in Anaconda on sal.as</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Copyright notice</copyright>
+    <lastBuildDate>Tue, 05 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/anaconda/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Anaconda Enviroment On Cloud9</title>
+      <link>/posts/anaconda-enviroment-on-cloud9/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/anaconda-enviroment-on-cloud9/</guid>
+      <description>open clould 9
+download miniconda for linux
+install on cloud 9
+profit ?
+  open cloud9
+-
+  installations  go to https://conda.io/miniconda.html
+ right click on python 3.6 linxu 64-bit (bash installer) and copy link address
+ get on the terminal and type wget -c and paste the link from before
+  uhdfrank:~/workspace $ wget -c https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh  Your workspace should look like this
+uhdfrank:~/workspace $ ls Miniconda3-latest-Linux-x86_64.</description>
+    </item>
+    
+  </channel>
+</rss>

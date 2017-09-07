@@ -7,24 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright notice</copyright>
-    <lastBuildDate>Mon, 04 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Ide</title>
-      <link>/tags/ide/</link>
-      <pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
+      <title>Anaconda</title>
+      <link>/tags/anaconda/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ide/</guid>
+      <guid>/tags/anaconda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C9</title>
+      <link>/tags/c9/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/c9/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
       <link>/tags/python/</link>
-      <pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/python/</guid>
       <description></description>
