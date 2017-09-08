@@ -1,0 +1,125 @@
+/*needed for copy code*/
+pre {
+    position: relative;
+}
+
+code, pre {
+    font-family: "Source Code Pro", menlo, monospace;
+    font-size: 92%;
+}
+code {
+    border-radius: 2px;
+    white-space: nowrap;
+    color: #5e5e5e;
+    background: #FFF7DD;
+    border: 1px solid #fbf0cb;
+    padding: 0px 2px;
+}
+code + .copy-to-clipboard {
+    margin-left: -1px;
+    border-left: 0 !important;
+    font-size: inherit !important;
+    vertical-align: middle;
+    height: 21px;
+    top: 0;
+}
+
+
+pre {
+    padding: 1rem;
+    margin: 2rem 0;
+    background: transparent;
+/*    background: #1d1f21;*/
+    border: 0;
+    border-radius: 2px;
+    line-height: 1.15;
+}
+
+
+pre code {
+    color: #237794;
+    background: inherit;
+    white-space: inherit;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+
+/*needed for copy code  */
+/*display copy button */
+.tooltipped:after {
+    position: absolute;
+    z-index: 1000000;
+    display: none;
+    padding: 5px 8px;
+    font: normal normal 11px/1.5 "Lato", "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: break-word;
+    white-space: pre;
+    pointer-events: none;
+    content: attr(aria-label);
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.tooltipped:hover:before, .tooltipped:hover:after, .tooltipped:active:before, .tooltipped:active:after, .tooltipped:focus:before, .tooltipped:focus:after {
+    display: inline-block;
+    text-decoration: none;
+}
+.tooltipped-s:after, .tooltipped-se:after, .tooltipped-sw:after {
+    top: 100%;
+    right: 50%;
+    margin-top: 5px;
+}
+
+.tooltipped-w:after {
+    right: 100%;
+    bottom: 50%;
+    margin-right: 5px;
+    transform: translateY(50%);
+}
+.copy-to-clipboard {
+    background-image: url(../img/clippy.svg);
+    background-position: 50% 50%;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 3.45rem;
+    top: -1px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    color: #5e5e5e;
+    background-color: #FFF7DD;
+    margin-left: -.2rem;
+    cursor: pointer;
+    border-radius: 0 2px 2px 0;
+    margin-bottom: 1px;
+}
+
+
+.copy-to-clipboard:hover {
+    background-color: #E8E2CD;
+}
+
+/*change direction of icon to display inside code area*/
+pre .copy-to-clipboard {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #4d5257;
+    color: #ccc;
+    border-radius: 2px;
+}
+pre .copy-to-clipboard:hover {
+    background-color: #656c72;
+    color: #fff;
+}

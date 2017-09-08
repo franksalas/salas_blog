@@ -7,28 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright notice</copyright>
-    <lastBuildDate>Tue, 05 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 May 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Anaconda Enviroment On Cloud9</title>
-      <link>/posts/anaconda-enviroment-on-cloud9/</link>
-      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      <title>Install Bash On Windows 10</title>
+      <link>/posts/install-bash-on-windows-10/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/posts/anaconda-enviroment-on-cloud9/</guid>
-      <description>open clould 9
-download miniconda for linux
-install on cloud 9
-profit ?
-  open cloud9
--
-  installations  go to https://conda.io/miniconda.html
- right click on python 3.6 linxu 64-bit (bash installer) and copy link address
- get on the terminal and type wget -c and paste the link from before
-  uhdfrank:~/workspace $ wget -c https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh  Your workspace should look like this
-uhdfrank:~/workspace $ ls Miniconda3-latest-Linux-x86_64.</description>
+      <guid>/posts/install-bash-on-windows-10/</guid>
+      <description>Modern day developers using open source software have to span to both windows and linux systems.
+Allot of open source software are native to linux/Unix systems and they don&amp;rsquo;t always work smoothly on windows systems.
+Lets install Bash on windows 10.
+test area start                test area end        end Enable Developer mode Click on search Windows icon and type developer, click on Use developer features.</description>
     </item>
     
     <item>

@@ -35,10 +35,9 @@
   
 
 
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/agate.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/purecss@1.0.0/build/pure-min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/atom-one-dark.min.css">
 <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-
 <link rel="stylesheet" href="/css/custom.css" />
 <link rel="stylesheet" href="/css/font-awesome-regular.css" />
 <link rel="stylesheet" href="/css/font-awesome-core.css" />
@@ -46,10 +45,9 @@
 <link rel="stylesheet" href="/css/font-awesome-light.css" />
 <link rel="stylesheet" href="/css/font-awesome-brands.css" />
 <link rel="stylesheet" href="/css/font-awesome-svg-framework.css" />
-
-
 <link rel="stylesheet" href="/mermaid/mermaid.css"/>
 <script type="text/javascript" src="/mermaid/mermaid.js"></script>
+
 </head>
 
 <body>
@@ -98,29 +96,22 @@
 
 <article class="c-article p-list-article">
   <header>
-    <h2 class="c-title c-article__title"><a href="/posts/anaconda-enviroment-on-cloud9/">Anaconda Enviroment On Cloud9</a></h2>
+    <h2 class="c-title c-article__title"><a href="/posts/install-bash-on-windows-10/">Install Bash On Windows 10</a></h2>
     <p class="c-article__meta">
       Posted on
-      <time datetime="2017-09-05T00:00:00Z">
-        Sep 5, 2017
+      <time datetime="2016-05-17T00:00:00Z">
+        May 17, 2016
       </time>
     </p>
   </header>
   <div class="c-article__summary">
-    open clould 9
-download miniconda for linux
-install on cloud 9
-profit ?
-  open cloud9
--
-  installations  go to https://conda.io/miniconda.html
- right click on python 3.6 linxu 64-bit (bash installer) and copy link address
- get on the terminal and type wget -c and paste the link from before
-  uhdfrank:~/workspace $ wget -c https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh  Your workspace should look like this
-uhdfrank:~/workspace $ ls Miniconda3-latest-Linux-x86_64.
+    Modern day developers using open source software have to span to both windows and linux systems.
+Allot of open source software are native to linux/Unix systems and they don&rsquo;t always work smoothly on windows systems.
+Lets install Bash on windows 10.
+test area start                test area end        end Enable Developer mode Click on search Windows icon and type developer, click on Use developer features.
   </div>
   
-  <a href="/posts/anaconda-enviroment-on-cloud9/" class="c-article__btn p-list-article__btn">Read more</a></li>
+  <a href="/posts/install-bash-on-windows-10/" class="c-article__btn p-list-article__btn">Read more</a></li>
   
 </article>
 
@@ -169,7 +160,7 @@ uhdfrank:~/workspace $ ls Miniconda3-latest-Linux-x86_64.
     <p class="c-title p-author__name ">Francisco Salas</p>
     
     
-    <p>Learning as I go.</p>
+    <p>I eat and I know things.</p>
     
     
   </div>
@@ -180,12 +171,6 @@ uhdfrank:~/workspace $ ls Miniconda3-latest-Linux-x86_64.
   </main>
   
 <ul id="all-tags" class="l-main">
-    
-    <li><a href="/tags/anaconda" class="c-tag"> anaconda</a></li>
-    
-    <li><a href="/tags/c9" class="c-tag"> c9</a></li>
-    
-    <li><a href="/tags/python" class="c-tag"> python</a></li>
     
 </ul>
 
@@ -232,7 +217,7 @@ uhdfrank:~/workspace $ ls Miniconda3-latest-Linux-x86_64.
       
 
       &nbsp;&bull;&nbsp;
-      2017
+      2016
 
       
         &nbsp;&bull;&nbsp;
@@ -254,119 +239,48 @@ uhdfrank:~/workspace $ ls Miniconda3-latest-Linux-x86_64.
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
-<script>
-hljs.initHighlightingOnLoad();
-</script>
-
-
+<script src="/js/clipboard_fun.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
 
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</script>
-
-<script src="/js/mathjax.js"></script>
-
-
-
-
-
-
-<script type="text/javascript" src="//cdn.bootcss.com/viz.js/1.3.0/viz.js">
-</script>
-<script type="text/javascript">
-(function() {
-    var vizPrefix = "language-viz-";
-    Array.prototype.forEach.call(document.querySelectorAll("[class^=" + vizPrefix + "]"), function(x) {
-        var engine;
-        x.getAttribute("class").split(" ").forEach(function(cls) {
-            if (cls.startsWith(vizPrefix)) {
-                engine = cls.substr(vizPrefix.length);
-            }
-        });
-        var image = new DOMParser().parseFromString(Viz(x.innerText, { format: "svg", engine: engine }), "image/svg+xml");
-        x.parentNode.insertBefore(image.documentElement, x);
-        x.style.display = 'none'
-    });
-})();
-</script>
-
-<script type="text/javascript">
-
-var clipInit = false;
-$('code').each(function() {
-    var code = $(this),
-        text = code.text();
-
-    if (text.length > 5) {
-        if (!clipInit) {
-            var text, clip = new Clipboard('.copy-to-clipboard', {
-                text: function(trigger) {
-                    text = $(trigger).prev('code').text();
-                    return text.replace(/^\$\s/gm, '');
-                }
-            });
-
-            var inPre;
-            clip.on('success', function(e) {
-                e.clearSelection();
-                inPre = $(e.trigger).parent().prop('tagName') == 'PRE';
-                $(e.trigger).attr('aria-label', 'Copied to clipboard!').addClass('tooltipped tooltipped-' + (inPre ? 'w' : 's'));
-            });
-
-            clip.on('error', function(e) {
-                inPre = $(e.trigger).parent().prop('tagName') == 'PRE';
-                $(e.trigger).attr('aria-label', fallbackMessage(e.action)).addClass('tooltipped tooltipped-' + (inPre ? 'w' : 's'));
-                $(document).one('copy', function() {
-                    $(e.trigger).attr('aria-label', 'Copied to clipboard!').addClass('tooltipped tooltipped-' + (inPre ? 'w' : 's'));
-                });
-            });
-
-            clipInit = true;
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [
+            ['$', '$'],
+            ['\\(', '\\)']
+        ],
+        displayMath: [
+            ['$$', '$$']
+        ],
+        processEscapes: true,
+        processEnvironments: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        TeX: {
+            equationNumbers: { autoNumber: "AMS" },
+            extensions: ["AMSmath.js", "AMSsymbols.js"]
         }
-
-        code.after('<span class="copy-to-clipboard" title="Copy to clipboard" />');
-        code.next('.copy-to-clipboard').on('mouseleave', function() {
-            $(this).attr('aria-label', null).removeClass('tooltipped tooltipped-s tooltipped-w');
-        });
     }
 });
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(),
+        i;
+    for (i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+MathJax.Hub.Config({
+    
+    TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
 </script>
+
+
+<script type="text/javascript" src="//cdn.bootcss.com/viz.js/1.3.0/viz.js"></script>
+<script src="/js/viz_hugo.js"></script>
 </body>
 </html>
 
