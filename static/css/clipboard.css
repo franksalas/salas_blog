@@ -5,9 +5,9 @@ pre {
 
 code, pre {
     font-family: "Source Code Pro", menlo, monospace;
-    font-size: 92%;
+    font-size: 1.6rem;
 }
-code {
+/*code {
     border-radius: 2px;
     white-space: nowrap;
     color: #5e5e5e;
@@ -22,11 +22,11 @@ code + .copy-to-clipboard {
     vertical-align: middle;
     height: 21px;
     top: 0;
-}
+}*/
 
 
 pre {
-    padding: 1rem;
+    padding: 5rem;
     margin: 2rem 0;
     background: transparent;
 /*    background: #1d1f21;*/
@@ -49,7 +49,7 @@ pre code {
 
 /*needed for copy code  */
 /*display copy button */
-.tooltipped:after {
+/*.tooltipped:after {
     position: absolute;
     z-index: 1000000;
     display: none;
@@ -78,9 +78,9 @@ pre code {
     top: 100%;
     right: 50%;
     margin-top: 5px;
-}
+}*/
 
-.tooltipped-w:after {
+/*.tooltipped-w:after {
     right: 100%;
     bottom: 50%;
     margin-right: 5px;
@@ -103,15 +103,15 @@ pre code {
     cursor: pointer;
     border-radius: 0 2px 2px 0;
     margin-bottom: 1px;
-}
+}*/
 
 
-.copy-to-clipboard:hover {
+/*.copy-to-clipboard:hover {
     background-color: #E8E2CD;
 }
-
+*/
 /*change direction of icon to display inside code area*/
-pre .copy-to-clipboard {
+/*pre .copy-to-clipboard {
     position: absolute;
     right: 20px;
     top: 20px;
@@ -122,4 +122,4 @@ pre .copy-to-clipboard {
 pre .copy-to-clipboard:hover {
     background-color: #656c72;
     color: #fff;
-}
+}*/

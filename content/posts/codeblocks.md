@@ -14,7 +14,10 @@ draft: true
 ## viz
 
 ```viz-dot
-digraph g { a -> b; }
+digraph g { 
+  a -> b;
+  b ->c;
+  c ->a; }
 ```
 
 {{< highlight html >}}

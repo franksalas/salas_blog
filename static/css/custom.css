@@ -1,3 +1,18 @@
+
+
+/*Code highlight settings*/
+
+code, pre {
+    font-family: "Source Code Pro", menlo, monospace;
+    font-size: 1.3rem;
+}
+
+pre{
+    background: transparent;
+}
+
+
+
 figure.floatright {
     max-width: 30%;
     width: auto\9*0.3; /* ie8 */
@@ -13,10 +28,6 @@ figure.floatleft {
 }
 
 
-
-pre{
-    background: transparent;
-}
 
 /*For expansion shortcut*/
 .expand{
